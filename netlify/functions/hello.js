@@ -119,7 +119,3 @@ exports.handler = async function (event, context) {
       body: JSON.stringify({ message: "Finalizada a por voos" }),
     };
   };
-
-  export const config = {
-    schedule: "* 2 * * *"
-}
