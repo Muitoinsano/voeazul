@@ -130,5 +130,5 @@
   });
 
   
-app.use('/.netlify/functions/hello', router);
+app.use('/', router);
 module.exports.handler = serverless(app);
